@@ -1,0 +1,132 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    font-family: poppins;
+    background: url("download.jfif");
+    background-size: cover;
+    background-position: center;
+}
+*
+{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.title
+{
+    text-align: center;
+    font-size: xx-large;
+}
+.page
+{
+    margin: 1%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.lift-size
+{
+    
+    background-color:#1d3557;
+    height:850px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 2rem;
+}
+.btn-box
+{
+    margin-top: 300px;
+    background-color:#023e8a;
+    height:370px;
+    width: 250px;
+    float: right;
+    border-radius: 2rem;
+}
+.table-class
+{
+    width: 200px;
+    height: 700px;
+    margin-left: 25%;
+    background-color: #ca6702;
+    border: 3px solid black;
+}
+.floor
+{
+    width: 120px;
+    height: 120px;
+    float: right;
+    text-align: center;
+    padding-top: 32%;
+    font-size: x-large;
+    background-color: #b5e48c;
+}
+
+.lift
+{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: #9d0208;
+    color: aliceblue;
+    padding-top: 30%;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+
+.btn-row
+{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+}
+.btn-item
+{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #ca6702;
+    color:aliceblue;
+    border-radius: 50%;
+    text-align: center;
+    font-size: x-large;
+    border: none;
+}
+.btn-go
+{
+    margin-left:70px;
+    width: 90px;
+    height: 50px;
+    background-color: #370617;
+    color:aliceblue;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: x-large;
+    border: none;
+}
+.btn-box button:hover
+{
+    cursor: pointer;
+}
+@media(max-width:800px)
+{
+    .lift-size
+    {
+        width: 300px;;
+    }
+    .btn-box
+    {
+        width:170px;
+        
+    }
+    .table-class
+    {
+        margin-left: 15%;
+    }
+    .btn-item
+    {
+        margin-left: 22px;
+    }
+}
